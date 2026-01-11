@@ -11,20 +11,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
-
     <script defer src="build/js/menu.js"></script>
     <script defer src="build/js/email.js"></script>
     <title>Willkommen – Serhiii Babych</title>
   </head>
-  <body
-    class="flex min-w-full flex-col items-center text-white bg-zinc-900"
-  >
+  <body class="flex min-w-full flex-col items-center bg-zinc-900 text-white">
     <aside
       id="socials"
       class="fixed left-0 top-1/3 z-10 hidden flex-col justify-center p-5 lg:flex"
     >
-
-
       <div id="socials-container" class="flex flex-col gap-5">
         <a
           href="https://linkedin.com/in/serhii-babych-24251125b"
@@ -43,7 +38,7 @@
             class="h-auto w-8 cursor-pointer rounded-full duration-300 hover:scale-110 hover:bg-purple-500 hover:transition-all"
           />
         </a>
-        
+
         <a href="mailto:s.babych.de@gmail.com" target="_blank">
           <img
             src="build/img/mail.png"
@@ -51,15 +46,18 @@
             class="h-auto w-8 cursor-pointer rounded-full duration-300 hover:scale-110 hover:bg-red-600 hover:transition-all"
           />
         </a>
-
-        
       </div>
     </aside>
     <header
       class="fixed top-0 z-10 flex h-20 min-w-full justify-center p-2 text-lg text-gray-300 sm:h-24"
     >
       <div class="header-hero flex w-4/5 items-center justify-between">
-        <img id="logo" src="build/img/logo.png" alt="logo" class="block h-full" />
+        <img
+          id="logo"
+          src="build/img/logo.png"
+          alt="logo"
+          class="block h-full"
+        />
         <img
           id="menu"
           src="build/img/menu.svg"
@@ -69,12 +67,12 @@
         <nav id="navbar" class="hidden gap-8 text-xl lg:flex">
           <a
             href="index.html"
-            class="transition-all duration-300 hover:scale-x-105 hover:text-blue-300 hover:ease-in-out " 
+            class="transition-all duration-300 hover:scale-x-105 hover:text-blue-300 hover:ease-in-out"
             >Start
           </a>
           <a
             href="#about-me"
-            class="transition-all duration-300 hover:scale-105 hover:text-blue-300 hover:ease-in-out "
+            class="transition-all duration-300 hover:scale-105 hover:text-blue-300 hover:ease-in-out"
             >Über mich
           </a>
           <a
@@ -93,7 +91,6 @@
             >Kontakt
           </a>
         </nav>
-
       </div>
       <div
         id="dropdownMenu"
@@ -113,7 +110,6 @@
             <a href="#contact">Kontakt</a>
           </li>
         </ul>
-</div>
       </div>
     </header>
     <main class="flex min-h-screen min-w-full flex-col items-center">
@@ -121,15 +117,18 @@
         id="hero"
         class="flex w-3/4 flex-col items-center justify-center pt-12 md:pt-24 lg:min-w-full"
       >
-        <div id="hero-wrap" class="flex flex-col justify-between lg:gap-16 sm:flex-row">
+        <div
+          id="hero-wrap"
+          class="flex flex-col justify-between sm:flex-row lg:gap-16"
+        >
           <div id="intro" class="mx-auto flex flex-col justify-center">
             <h2
-             class="animate__animated animate__fadeInUp text-2xl sm:text-3xl md:text-4xl"
+              class="animate__animated animate__fadeInUp text-2xl sm:text-3xl md:text-4xl"
             >
               Hallo
             </h2>
             <h2
-             class="animate__animated animate__fadeInUp text-2xl sm:text-3xl md:text-4xl"
+              class="animate__animated animate__fadeInUp text-2xl sm:text-3xl md:text-4xl"
             >
               mein Name ist
             </h2>
@@ -140,7 +139,7 @@
               Serhii Babych
             </h3>
             <p
-             class="animate__animated animate__fadeInUp pt-3 text-2xl sm:text-3xl md:text-5xl"
+              class="animate__animated animate__fadeInUp pt-3 text-2xl sm:text-3xl md:text-5xl"
             >
               Ich baue Dinge für das Web!
             </p>
@@ -157,7 +156,7 @@
             <img
               src="build/img/lamp-on.png"
               alt="hero"
-              class="xl:block sm:max-md:max-w-80"
+              class="sm:max-md:max-w-80 xl:block"
             />
           </figure>
         </div>
@@ -172,43 +171,96 @@
           </h2>
         </div>
         <div class="aboutCard min-h-full w-full sm:w-4/6">
-          <p class="text-lg sm:text-xl md:text-3xl lg:text-2xl mb-8">
-            Hallo, mein Name ist Serhii Babych. Ich bin Webentwickler und habe eine Leidenschaft dafür, innovative Lösungen zu entwickeln. 
-            Ich liebe es, nahtlose und benutzerfreundliche Oberflächen zu gestalten, die einen spürbaren Mehrwert schaffen.
+          <p class="mb-8 text-lg sm:text-xl md:text-3xl lg:text-2xl">
+            Hallo, mein Name ist Serhii Babych. Ich bin Frontend Webentwickler
+            und habe eine Leidenschaft dafür, innovative Lösungen zu entwickeln.
+            Ich liebe es, nahtlose und benutzerfreundliche Oberflächen zu
+            gestalten, die einen spürbaren Mehrwert schaffen.
           </p>
           <section class="mb-8">
-            <h2 class="font-bold mb-2 text-2xl">Berufserfahrung</h2>
+            <h2 class="mb-2 text-2xl font-bold">Berufserfahrung</h2>
             <div class="mb-5">
-                <h3 class="text-xl font-bold">- Wieprich Werbeagentur – Webentwickler (Februar 2024 – heute)</h3>
-                <ul class="list-disc list-inside ml-4 text-lg text-gray-200">
-                    <li>Websites entworfen (PSD, Figma) und responsive entwickelt unter Verwendung von HTML, CSS, JavaScript und weiteren Technologien.</li>
-                    <li>Websites auf verschiedenen CMS-Plattformen wie WordPress, TYPO3, Joomla und anderen erstellt und angepasst.</li>
-                    <li>SEO-Optimierung, Barrierefreiheitsstandards und Leistungsverbesserungen implementiert, um hochwertige Nutzererfahrungen zu gewährleisten.</li>
-                    <li>An skalierbaren, wartbaren und modernen digitalen Lösungen gearbeitet und diese gemäß den besten Branchenpraktiken umgesetzt.</li>
-                </ul>
+              <h3 class="text-xl font-bold">
+                - Wieprich Werbeagentur – Webentwickler (Februar 2024 – heute)
+              </h3>
+              <ul class="ml-4 list-inside list-disc text-lg text-gray-200">
+                <li>
+                  Konzeption, Design (PSD, Figma) und responsive Umsetzung von
+                  Websites mit HTML, CSS, Tailwind CSS, JavaScript, React und
+                  TypeScript.
+                </li>
+                <li>
+                  Entwicklung moderner Frontend-Komponenten mit Vite als
+                  Build-Tool.
+                </li>
+                <li>
+                  Umsetzung und Anpassung von Websites auf WordPress, TYPO3 und
+                  Joomla.
+                </li>
+                <li>
+                  Integration von RESTful APIs zur Anbindung externer Services.
+                </li>
+                <li>
+                  Implementierung von SEO-Maßnahmen, Barrierefreiheitsstandards
+                  (Accessibility) und Performance-Optimierungen.
+                </li>
+                <li>
+                  Versionsverwaltung und Zusammenarbeit im Team mit GitHub
+                </li>
+                <li>
+                  Mitarbeit an skalierbaren, wartbaren und modernen
+                  Frontend-Lösungen.
+                </li>
+              </ul>
             </div>
-    
-            <div class="mb-4">
-                <h3 class="text-xl font-bold">- Frontend Entwickler - ECO-Retail (Dec 2019 – Juni 2022)</h3>
-                <ul class="list-disc list-inside ml-4 text-lg  text-gray-200">
-                    <li>Gestaltung und Entwicklung von responsiven Web-Oberflächen für Desktop- und Mobilgeräte (HTML, CSS, JavaScript, React, Tailwind CSS)</li>
-                    <li>Umsetzung benutzerfreundlicher Interfaces für Produktkataloge, Sonderangebote und OnlineShopping.</li>
-                    <li>Integration interaktiver Elemente sowie Optimierung von Seitenleistung und Ladezeiten für ein besseres Nutzererlebnis.</li>
-                    <li>Zusammenarbeit mit Marketing- und Content-Teams zur Umsetzung visueller Konzepte.</li>
-                    <li>Anbindung von Zahlungssystemen und weiteren externen Services.</li>
-                </ul>
-            </div>
-        </section>
-    
-        <section class="mb-8">
 
-            <div class="mb-4 cv-link">
-                <a href="/build/Lebenslauf_Serhii_Babych.pdf" target="_blank"><img src="/build/img/PDF_image.png" alt="Download PDF" width="30"></a>
-                <a href="/build/Lebenslauf_Serhii_Babych.pdf" target="_blank"><h3 class="flex items-center gap-2 text-xl font-bold hover:text-red-600">Lebenslauf</h3></a>
+            <div class="mb-4">
+              <h3 class="text-xl font-bold">
+                - Frontend Entwickler - ECO-Retail (Dec 2019 – Juni 2022)
+              </h3>
+              <ul class="ml-4 list-inside list-disc text-lg text-gray-200">
+                <li>
+                  Entwicklung responsiver Web-Oberflächen für Desktop- und
+                  Mobilgeräte mit HTML, CSS, JavaScript, React, Tailwind CSS.
+                </li>
+                <li>
+                  Umsetzung benutzerfreundlicher Interfaces für Produktkataloge,
+                  Sonderangebote und Online-Shopping-Systeme.
+                </li>
+                <li>
+                  Integration interaktiver Funktionen sowie Optimierung von
+                  Ladezeiten und Seitenperformance.
+                </li>
+                <li>
+                  Anbindung von Zahlungssystemen und externen Services über
+                  RESTful APIs.
+                </li>
+                <li>
+                  Implementierung von Schnittstellen zwischen Frontend, CRM-,
+                  ERP-Systemen und mobilen Apps.
+                </li>
+                <li>Qualitätssicherung und erste Unit-Tests mit Jest.</li>
+              </ul>
             </div>
-            
-        </section>
-    
+          </section>
+
+          <section class="mb-8">
+            <div class="cv-link mb-4">
+              <a href="/build/Lebenslauf_Serhii_Babych.pdf" target="_blank"
+                ><img
+                  src="/build/img/PDF_image.png"
+                  alt="Download PDF"
+                  width="30"
+              /></a>
+              <a href="/build/Lebenslauf_Serhii_Babych.pdf" target="_blank"
+                ><h3
+                  class="flex items-center gap-2 text-xl font-bold hover:text-red-600"
+                >
+                  Lebenslauf
+                </h3></a
+              >
+            </div>
+          </section>
         </div>
       </section>
       <section
@@ -225,60 +277,65 @@
           id="stacks"
           class="z-0 grid w-3/4 grid-flow-col grid-rows-2 place-content-center gap-x-9 p-5"
         >
-        <div class="flex flex-col items-center">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/2275px-React.svg.png"
-            alt="ts-1"
-            loading="lazy"
-            class="sm:scale-75"
-          />React
-        </div>
           <div class="flex flex-col items-center">
-          <img
-            src="build/img/html.png"
-            alt="ts-1"
-            loading="lazy"
-            class="sm:scale-75"
-          />HTML
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="build/img/css.png"
-            alt="ts-2"
-            loading="lazy"
-            class="sm:scale-75"
-          />
-          CSS
-        </div>
-        <div class="flex flex-col items-center">
-          <img src="build/img/js.png" alt="ts-3" loading="lazy" class="sm:scale-75" />
-        JavaScript
-        </div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/2275px-React.svg.png"
+              alt="ts-1"
+              loading="lazy"
+              class="sm:scale-75"
+            />React
+          </div>
           <div class="flex flex-col items-center">
-          <img
-            src="build/img/tailwind.png"
-            alt="ts-4"
-            loading="lazy"
-            class="sm:scale-75"
-          />Tailwind
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="build/img/git.png"
-            alt="ts-5"
-            loading="lazy"
-            class="sm:scale-75"
-          />
-          Git
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="build/img/footer-github.png"
-            alt="ts-7"
-            loading="lazy"
-            class="sm:scale-75"
-          />GitHub
-        </div>
+            <img
+              src="build/img/html.png"
+              alt="ts-1"
+              loading="lazy"
+              class="sm:scale-75"
+            />HTML
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="build/img/css.png"
+              alt="ts-2"
+              loading="lazy"
+              class="sm:scale-75"
+            />
+            CSS
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="build/img/js.png"
+              alt="ts-3"
+              loading="lazy"
+              class="sm:scale-75"
+            />
+            JavaScript
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="build/img/tailwind.png"
+              alt="ts-4"
+              loading="lazy"
+              class="sm:scale-75"
+            />Tailwind
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="build/img/git.png"
+              alt="ts-5"
+              loading="lazy"
+              class="sm:scale-75"
+            />
+            Git
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="build/img/footer-github.png"
+              alt="ts-7"
+              loading="lazy"
+              class="sm:scale-75"
+            />GitHub
+          </div>
         </div>
       </section>
       <section
@@ -297,9 +354,7 @@
         <div
           id="project-container"
           class="flex w-4/5 flex-wrap place-content-center justify-center gap-10"
-        >
-        </div>
-
+        ></div>
       </section>
       <section
         id="contact"
@@ -313,27 +368,41 @@
           id="form-container"
           class="flex flex-wrap items-center justify-center xl:gap-4"
         >
-
-<form id="email-form"
-  action="https://formspree.io/f/mdklbebl"
-  method="POST"
->
- <label for="fullName">Dein Name:
-          <input type="text" id="fullName" name="fullName" placeholder="Dain Name" required>
-  </label>    
-  <label>
-    E-Mail:
-    <input type="email" name="email" placeholder="E-Mail">
-  </label>
-  <label>
-    Deine Nachricht:
-    <textarea name="message" placeholder="Deine Nachricht..."></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit" id="submit-btn" class="items-center justify-center">Senden</button>
-</form>
-
-
+          <form
+            id="email-form"
+            action="https://formspree.io/f/mdklbebl"
+            method="POST"
+          >
+            <label for="fullName"
+              >Dein Name:
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Dain Name"
+                required
+              />
+            </label>
+            <label>
+              E-Mail:
+              <input type="email" name="email" placeholder="E-Mail" />
+            </label>
+            <label>
+              Deine Nachricht:
+              <textarea
+                name="message"
+                placeholder="Deine Nachricht..."
+              ></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button
+              type="submit"
+              id="submit-btn"
+              class="items-center justify-center"
+            >
+              Senden
+            </button>
+          </form>
 
           <figure
             class="m-4 hidden flex-col items-center justify-center lg:flex"
@@ -348,7 +417,7 @@
         <img
           src="build/img/my-socials.png"
           alt="my-socials"
-          class="mx-auto block lg:hidden h-72"
+          class="mx-auto block h-72 lg:hidden"
         />
       </section>
     </main>
@@ -358,19 +427,31 @@
       <p class="hidden sm:inline">s.babych.de@gmail.com</p>
       <div id="footer-img-wrap" class="flex gap-2">
         <a href="https://github.com/" target="_blank">
-          <img src="build/img/footer-github.png" alt="github" class="h-9 w-9 rounded-full duration-300 hover:scale-110 hover:bg-purple-500 hover:transition-all" />
+          <img
+            src="build/img/footer-github.png"
+            alt="github"
+            class="h-9 w-9 rounded-full duration-300 hover:scale-110 hover:bg-purple-500 hover:transition-all"
+          />
         </a>
-        <a href="https://linkedin.com/in/serhii-babych-24251125b" target="_blank">
-          <img src="build/img/linkedin.png" alt="linkedin" class="h-9 w-9 cursor-pointer rounded-lg duration-300 hover:scale-110 hover:bg-blue-700 hover:transition-all" />
+        <a
+          href="https://linkedin.com/in/serhii-babych-24251125b"
+          target="_blank"
+        >
+          <img
+            src="build/img/linkedin.png"
+            alt="linkedin"
+            class="h-9 w-9 cursor-pointer rounded-lg duration-300 hover:scale-110 hover:bg-blue-700 hover:transition-all"
+          />
         </a>
       </div>
     </footer>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-      (function(){
-          emailjs.init("9-9D0S522SqIcmLbr");
+      (function () {
+        emailjs.init("9-9D0S522SqIcmLbr");
       })();
     </script>
   </body>
