@@ -21,31 +21,31 @@ function menuToggle(params) {
 //Projects Lists
 
 const projectList = [
-
-  {
-    id: 5,
-    title: "Maut AG",
-    img: "build/img/maut.jpg",
-    githubLink: "#",
-    live: "https://maut-ag.com/",
-    desc: "Entwicklung des Designs und der Struktur der Website. Layout – WordPress Elementor, CSS, JavaScript.",
-  },
   {
     id: 11,
-    title: "TechBob - News",
-    img: "build/img/techbob.jpg",
-    githubLink: "https://github.com/SerhiiBab/techbob",
-    live: "https://www.techbob.de/",
-    desc: "Entwicklung einer modernen Headless-CMS mit Next.js, TypeScript und Tailwind CSS für hohe Performance und Flexibilität.",
+    title: "NutriKI",
+    img: "build/img/nutriki.jpg",
+    githubLink: "https://github.com/SerhiiBab/nutritrack.git",
+    live: "https://nutriki.vercel.app/",
+    desc: "NutriTrack KI — eine Webanwendung zur Analyse von Mahlzeiten und Nährwerten mithilfe künstlicher Intelligenz, basierend auf natürlichen Texteingaben der Nutzer. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
   },
   {
     id: 8,
-    title: "Maus JS Spiel",
-    img: "build/img/maus-spiel.jpg",
-    githubLink: "https://github.com/SerhiiBab/maus-spiel",
-    live: "https://maus-spiel.vercel.app/",
-    desc: "Dieses Web-Spiel wurde vollständig mit Vanilla JavaScript, HTML und CSS entwickelt. Es bietet eine interaktive Spielerfahrung direkt im Browser, ohne externe Bibliotheken oder Frameworks.",
+    title: "UrbanStroll",
+    img: "build/img/urbanstroll.jpg",
+    githubLink: "https://github.com/SerhiiBab/urbanstroll.git",
+    live: "https://urbanstroll.vercel.app/",
+    desc: "UrbanStroll AI — eine Webanwendung zur Generierung personalisierter Spazier- und Stadtrouten mithilfe von KI auf Basis der Nutzerpräferenzen. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
   },
+  {
+    id: 8,
+    title: "TechFix",
+    img: "build/img/texfix.jpg",
+    githubLink: "https://github.com/SerhiiBab/techfix-pro.git",
+    live: "https://techfixservice.vercel.app/",
+    desc: "TechFix Pro — eine Webanwendung zur Präsentation und Verwaltung von Reparatur- und Technikdienstleistungen mit klarer Benutzerführung und modernem UI. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Node.js, Vercel.</strong>",
+  },
+
 ];
 
 // function to return project-card
@@ -56,7 +56,7 @@ function displayAllProjects(projectsList){
         return `
         <div class="project-card" class="text-gray-300">
             <a href=${item.live} target="_blank"><img src= ${item.img} alt=${item.title}></a>
-            <a href=${item.live} target="_blank"><h2 class="text-xl lg:text-2xl  font-bold mx-3 pt-1 underline underline-offset-8">${item.title}</h2></a>
+            <a href=${item.live} target="_blank"><h2 class="text-xl lg:text-2xl  font-bold mx-3 pt-1">${item.title}</h2></a>
             <p class="m-1 text-xs lg:text-base">${item.desc}</p>
             <div class="flex justify-between w-full px-4  projectLinkContainer items-center" >
               <a href=${item.live} target="_blank"><p class="text-sm lg:text-lg">Projekt ansehen -></p></a>

@@ -142,7 +142,6 @@ min-width: 40px;
 
 .project-card {
 width: max(300px, 24vw);
-aspect-ratio: 3/4;
 background-color: #373637;
 border-radius: 16px;
 box-shadow:1px 1px 5px rgb(96, 96, 96);
