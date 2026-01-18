@@ -89,7 +89,7 @@ min-width: 65vw;
 
 #name{
 font-family: var(--font-name);
-background: linear-gradient(287deg, rgba(66,148,246,1) 6%, rgba(32,105,171,1) 50%, rgba(35,255,245,1) 99%);
+background: linear-gradient(287deg, #4294f6 6%, #2069ab 50%, #23fff5 99%);
 background-size: cover;
 -webkit-text-fill-color: transparent;
 background-clip:text;
