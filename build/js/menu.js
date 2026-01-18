@@ -27,7 +27,7 @@ const projectList = [
     img: "build/img/nutriki.jpg",
     githubLink: "https://github.com/SerhiiBab/nutritrack.git",
     live: "https://nutriki.vercel.app/",
-    desc: "NutriTrack KI — eine Webanwendung zur Analyse von Mahlzeiten und Nährwerten mithilfe künstlicher Intelligenz, basierend auf natürlichen Texteingaben der Nutzer. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
+    desc: "Web-App zur Analyse von Mahlzeiten und Nährwerten per KI anhand von Texteingaben der Nutzer. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
   },
   {
     id: 8,
@@ -35,7 +35,7 @@ const projectList = [
     img: "build/img/urbanstroll.jpg",
     githubLink: "https://github.com/SerhiiBab/urbanstroll.git",
     live: "https://urbanstroll.vercel.app/",
-    desc: "UrbanStroll AI — eine Webanwendung zur Generierung personalisierter Spazier- und Stadtrouten mithilfe von KI auf Basis der Nutzerpräferenzen. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
+    desc: "Web-App zur Erstellung personalisierter Spazier- und Stadtrouten per KI nach Nutzerpräferenzen. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Google Gemini API, Node.js, Vercel.</strong>",
   },
   {
     id: 8,
@@ -43,7 +43,7 @@ const projectList = [
     img: "build/img/texfix.jpg",
     githubLink: "https://github.com/SerhiiBab/techfix-pro.git",
     live: "https://techfixservice.vercel.app/",
-    desc: "TechFix Pro — eine Webanwendung zur Präsentation und Verwaltung von Reparatur- und Technikdienstleistungen mit klarer Benutzerführung und modernem UI. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Node.js, Vercel.</strong>",
+    desc: "Web-Site zur Darstellung und Verwaltung von Reparatur- und Technikdiensten mit modernem UI und einfacher Bedienung. <br /><strong>Technologien: React, TypeScript, Vite, Tailwind CSS, Node.js, Vercel.</strong>",
   },
 
 ];
